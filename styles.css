@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    color: #d87c7c;
+    box-sizing: border-box;
+}
+img {
+    width: 600px;
+    height: 350px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: #fff0f0;
+    color: rgb(202, 109, 109);
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 80px;
+    font-family: 'hunters';
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(209, 114, 114);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.caja1 {
+    margin: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    place-items: right;
+    color: rgb(209, 114, 114);;
+    text-align: center;
+    border-radius: 40px;
+}
+h1{
+    margin-top:0;
+}
+
+.hero-content {
+    max-width: 600px;
+    font-size: 50px;
+    margin: 10px;
+    place-content: center;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #b9486ea1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.datos {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.datoss h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-item img {
+    width: 180px;
+    height: 300px;
+}
+
+footer {
+    background-color: #b86879;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
